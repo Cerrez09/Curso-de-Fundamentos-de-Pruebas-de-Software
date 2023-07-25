@@ -1,0 +1,16 @@
+En los tipos de prueba es donde se aplican las diferentes técnicas empleadas para tratar de encontrar
+los defectos. Nos referimos al grupo de actividades específicas a realizar
+    PRUEBAS FUNCIONALES
+    Se entiende como las funcionalidades del sistema como "lo que el sistema hace". Ósea que el sistema
+    funciona. 
+    PRUEBAS NO-FUNCIONALES
+    Cuando el usuario experimenta actividades diferentes, por ejemplo, que está muy lento. son todas las
+    características de funcionabilidad y usabilidad
+    PRUEBAS ESTRUCTURALES
+    tienen que ver más con la tecnología y el stack que se está utilizando con el producto. Es asegurarse
+    que el servidor y la base de datos funcionen, también conocidas como las pruebas de caja blanca por 
+    que se ve que hay dentro de él.
+    PRUEBAS PARA MANEJO DE CAMBIOS  
+    Se va a probar el software en diferentes capas y situaciones, entonces quizás después de arreglar 
+    un defecto sea necesario revisar el software y que este funcione de acuerdo con los cambios
+

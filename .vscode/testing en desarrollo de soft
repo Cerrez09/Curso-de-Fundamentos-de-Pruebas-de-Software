@@ -1,0 +1,40 @@
+testing vs cheking
+testing: es la exploración de una idea, aprender a conocer como sucede un flujo y que esto
+genere resultados
+El testing y el cheking no terminan
+cheking: es cuando tú sabes que sucede algo y verificas que siga pasando
+ESTRATEGIAS DE CHEKING
+-permite organizar a que siempre sucedan las cosas: se usa en diferentes ocasiones
+1.Ejecutar checking solo si sucede algo más, por ejemplo, voy a hacer cheking cada que
+se liberen las pruebas
+2.Se ejecutan cada vez que yo desee
+3.Se ejecutan de manera programada
+
+ERRORES COMUNES DURANTE LA EJECUCION
+-pruebas duplicadas
+-pruebas similares
+-pruebas sin valor agregado: son aquellas que no están asociadas al negocio
+-pruebas caducadas: las pruebas pueden caducar dependiendo de la tecnología empleada
+La automatización de pruebas consiste en un software especial para controlar la ejecución
+de pruebas y la comparación entre resultados obtenidos y resultados esperados. Sin embargo
+se trata de un checking repetitivo y automatizado
+
+DESVENTAJAS DEL CHECKING MAL EMPLEADO
+-Pobre cobertura de prueba: por ejemplo, las empresas deciden ir a la automatización de
+pruebas pensando que esto tendrá menos errores, pero desde el inicio hubo una pobre cobertura
+de prueba. La automatización son repetitivos así que se debe ir aumentando la cobertura
+a medida que van aumentando los escenarios
+-Falta de actualización: Conforme se van acumulando más pruebas el tester no solo debe
+automatizar sino darle mantenimiento al script, entonces si el equipo no crece o las
+responsabilidades acerca de las pruebas se ve en riesgo
+-Mal manejo de inversiones: cuando no se conoce el proceso se crean versiones diferentes
+de desarrollo y pruebas.
+VENTAJAS DEL CHECKING BIEN EMPLEADO
+-Correr pruebas en paralelo o en múltiples plataformas: el cheking es importante por que
+si ya hay un software estable se tiene la ventaja de probar paralelamente en múltiples plataformas.
+-Reducción del error humano: El cheking reduce el error humano, debido a la cobertura automatizada
+-Probar grandes cantidades de datos: probar con muchos datos es más fácil a través de la automatización
+o el cheking y reduce el error humano y también puede ser probado en múltiples plataformas
+
+Cuando ya queremos hablar de integración y liberación continuas entonces la automatización es
+la solución definitiva para la eficiencia del equipo de desarrollo digital y equipo de DevOps

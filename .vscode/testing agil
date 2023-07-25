@@ -1,0 +1,14 @@
+La industrial al desarrollar software y seguir metodologías tipo cascada ha fortalecido
+sus procesos, pero también corren riesgo cuando el producto cuando llega al cliente no es 
+lo que esperaba.
+El testing ágil involucra a todos. Lo que hace el tester, responsable es tener mayor 
+cobertura teniendo en cuenta todas las necesidades que tienen todos los miembros del equipo.
+Las estrategias agiles no solo abarcan la manera de trabajar sino, La estrategia de llevar 
+todo el proceso, de documentar y como se quiere que el proceso se vaya entregando al cliente
+Integración continua: cada vez que alguien haga un cambio todas las pruebas que correspondes
+a las pruebas liberadas también se ejecuten de manera automatizada
+Cuando estamos trabajando en testing ágil las pruebas parten de escuchar al equipo y entender
+los requerimientos de cada uno. El tester debe aportar su visión como va a trabajar y proponer
+las pruebas para que el desarrollador y el product manager van a aceptar como criterio de 
+salida para saber que ese código puede ser finalizado e integrado con las demás partes del software
+

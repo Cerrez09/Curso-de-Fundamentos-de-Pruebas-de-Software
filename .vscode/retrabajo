@@ -1,0 +1,32 @@
+Despues de conocer los roles es importante saber com medirlo y el uso de métricas y avance, de manera
+individual y en equipo
+Las empresas tienen herramientas de monitoreo virtual donde se pueda tener de fomra clara, lo que se 
+está haciendo, los que terminó de hacerse y lo que se hará despues.
+Los dashboard son una herramienta mantienen informado a todo el equipo acerca del status de pruebas
+
+Acciones de control 
+    Monitoreo necesario para identificar un riesgo. Elementos del proceso que lo bloquean
+    Identificación de falta de ambientes, los ambientes de prueba no siempre estan preparados o
+    requieren actualización, es por eso que debe ser parte de la métrica el monitoreo de los ambientes
+    para evitar estar trabajando en un ambiente que no es optimo
+    Si el criterio de salida no se cumple, si las pruebas han cambiado y asi mismo los criterios de
+    salida hay que volver a hacer la planeación para reajustar el trabajo
+
+Resultado de las pruebas:
+    Hay valores como cuantas pruebas se han ejectudo, han pasado o no han paso, o se han derivado
+    defectos o no pero hay algo que no permite continuar el trabajo
+Desempeño del equipo de Testing:
+    Muchas circunstancias alrededor de poder hacer el trabajo forman parte de poder medir, el trabajo y 
+    la administración de las tareas que son asignadas
+
+El retrabajo es la principal causa de que la entrega se atrase, de que la estimación del tiempo falle y
+de que los costos se suban, cuando sucede el retrabajo se está llevando hasta 7 veces más el esfuerzo de
+todos, cuando puede ser simple de que se documente bien y se entregue. La mala documentación puede
+hacer que deba devolverse desde muy atrás. Las acciones, las actividades y los habitos de como gestionar
+las pruebas son las que producen retrabajo
+    Falta o mala documentación
+    Falta de capacitación o dominio de las herramientas utilizadas
+    Falta de capacitación en el software a desarrollar: no enteder el producto en sí que se está 
+    desarrollando
+    Falta de comunicación
+    

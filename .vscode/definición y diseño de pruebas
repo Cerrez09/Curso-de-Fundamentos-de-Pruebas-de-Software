@@ -1,0 +1,18 @@
+¿QUE HACE UN TESTER?
+    Sabe encontrar problemas, documentarlos y comunicarlos
+
+Sino encuentras problemas antes de que el producto sea entregado al cliente, entonces el testing es 
+ineficiente
+
+Si cuando se encuentran problemas no se sabe documentar bien desde la primera vez y reproducir los pasos 
+correctos el testing generará retrabajos y sube el costo
+
+Como representante de la calidad no se sabe argumentar y proteger los intereses del negocio o de los
+clientes, entonces el testing no agregará valor, los casos de pruebas deben contener la información
+necesaria
+¿Que debe tener un caso de prueba?
+Nombre
+Descripción
+Pasos (explicación de cada uno)
+Resultados esperados (Que pretendo ver)
+Resultados actuales

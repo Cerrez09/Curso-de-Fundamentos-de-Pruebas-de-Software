@@ -1,0 +1,14 @@
+¿Para qué sirve?
+Sirve para comprender en toda la arquitectura del software como separar las pruebas para que la cobertura
+que se tenga mejor descripción, comprensión e inclusive el desarrollo sea más complementario.
+PRUEBAS DE COMPONENTES
+los componentes son cosas pequeñas que puedes ver, por ejemplo, el botón de play en un video. las
+pruebas que se hacen aquí no dependen de todo el flujo
+PRUEBAS DE INTEGRACION
+varios sistemas juntos que necesitan ser integrados por ejemplo un catálogo web podría ser el carro
+de comprar con el catálogo. Entonces una prueba de integración puede ser como desde el inicio se
+el sistema de catálogos con el de compras
+PRUEBAS DE SISTEMA
+Incluyen que además se toma en cuenta el contexto, no es lo mismo tener estas pruebas en el inicio y final en un Android o iPhone o servidor
+PRUEBAS DE ACEPTACION
+Aquí nos aseguramos de que el cliente tiene todas las necesidades cubiertas. Es la prueba de verificación que se realiza junto con el cliente

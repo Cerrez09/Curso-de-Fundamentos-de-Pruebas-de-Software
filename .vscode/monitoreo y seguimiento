@@ -1,0 +1,23 @@
+Gestion de pruebas
+Existen varias etapas:
+
+planeación de pruebas: Es donde se definen los objetivos de la prueba. Cuando no se tiene claro lo
+que se va a hacer es lo que se conoce como una pobre cobertura de prueba. Los elementos que se deben
+considerar para una buena planeación son:
+Estimación
+Los recursos
+El alcance
+y los objetivos
+
+monitoreo y control de pruebas: se buscan las métricas que definen y alertan si se están cumpliendo
+los objetivos
+
+Análisis de pruebas: Incluye decidir cuales son las prioridades
+
+Diseño de pruebas: Es donde se busca detallar cada caso de uso. En general es toda la información que
+permita tener una cobertura exitosa
+
+Implementación de pruebas: Se debe contar también con una estructura suficiente para ejecutar las pruebas
+
+Ejecucción de pruebas: los suits de prueba se ejecutan de acuerdo al programa o plan diseñado. Las pruebas normalmente se agrupan lo casos para poder darles seguimientos
+Finalización de pruebas: Implica saber que porcentaje fue ejecutado y que lecciones deja el proceso

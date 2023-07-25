@@ -1,0 +1,13 @@
+Sirven para confirmar que un cambio se hizo o un error se corrgió.
+
+Que se busca en ellas:
+    Tratan de reproducir el escenario fallido con los datos usados
+
+    Pruebas de regresión
+        La matriz de prueba durante el debuging nos permite identificar varios módulos impactandos que
+        requieren regresión
+        No solo se ven los defectos que se corrigen sino que todo lo que ya funciona sig ahaciendolo
+        También define los casos de prueba que puedan ser automatizados más adelante
+
+
+

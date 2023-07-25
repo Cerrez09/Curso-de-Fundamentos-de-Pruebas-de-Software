@@ -1,0 +1,95 @@
+Depurando (debugging)
+Actividad que sirve para encontrar, analizar y arreglar defectos.
+
+Beneficiados:
+Desarrollador
+Tester
+Analista
+Objetivo:
+analisis de comportamientos del sistema, variables, transferencia de datos, procesamiento de
+información
+
+Errores:
+los errores de todas maneras van a estar aunque se depure. Debido a que el debugging es una
+estrategia que se asegura de que todo el código este bien pero no cubre desde el inicio hasta el
+final
+
+Sintomas de error:
+obtención de salida incorrecta
+Realización de operaciones fuera de lo normal
+No finalización del programa
+Caídas del programa
+
+El depurador (debugger) permite que:
+Ejecutar línea a línea
+Detener la ejecución temporalmente
+En una línea de código concreta
+Bajo determinadas condiciones
+Visualizar el contenido de las variables
+Cambiar el valor del entorno de la ejecución para ver el efecto de una corrección en el programa
+Tipos de herramientas:
+Debbugger: herramientas encargadas de hacer el análisis
+Manual: imprimir o correr en el tiempo para observar las salidas
+Local o remota: Asistir de manera remota, observar en el sitio el debbugging
+
+Herraminetas:
+No ignorar los mensajes de advertencia
+Estándares de compilación
+Verificación sintáctica y lógica
+
+TECNICAS DE DEPURACIÓN
+
+    Debugging: con el tiempo se prevee guardar la informacion y acelerar el proceso del debugging
+        Observar valores de variables
+        Detener temporalmente aplicación
+    Log: como los datos van transicionando y cambiando. Almacenar comportamientos para posteriormente
+    evistar esos defectos
+        Almacenar los valores
+        Rastreo de la información
+    Historial: Monitoreo de observación de datos guardados
+        Capacidad de análisis forenses
+        Comprar valores
+        Agrupar información
+    Monitor reportes: Advierte ataques
+        Prevenir ataques y fallas
+        Observar anomalías
+        Acelerar tiempo de respuesta
+
+Desventajas de no usar logs:
+No se tiene visibilidad completa
+Metodolodía no estandarizada
+Acceso e información descentralizada
+Inrecremento del tiempo de respuesta
+
+Ventajas de generar historial-reporte
+Aplicar técnicas Machine Learning
+Mejorar la gestión y el control de la información
+Detectar amenazas de red y virus
+Prevenir fugas de información, así como comportamientos inadecuados
+
+    Fase 1 para el debbuging: Encontrar un error
+        Ir al módulo que falla
+        Establecer puntos de verificación donde esta viajando la información a observar
+        Diseñar matriz de prueba, sirve para señalar los puntos de verificación
+
+    Fase 2 para el debbuging: Corregir el error
+
+CUANDO PODEMOS AUTOMATIZAR?
+Cuando tenemos pruebas repetitivas. Deben identificarse primero las pruebas repetitivas
+Buscamos optimizar la ejecución de pruebas.
+Hemos definido un framework. Deben estandarizarse las pruebas
+
+Se pueden automatizar las pruebas unitarias
+Las pruebas de integración
+y las pruebas funcionales o de aceptación
+
+FRAMEWORKS
+Ejemplo:
+TDD(Test Driven Development):
+El desarrollo va a esta enfocado de manera que primerp van a estar desarrolladas las pruebas y luego el código
+
+    PROCESO TDD
+    1 escribimos una prueba
+    2 ejecutamos la prueba: falla
+    3 se escribe el código
+    4 ejecutamos la prueba: pasa

@@ -1,0 +1,47 @@
+Cuando hablamos de caja significa que es la manera de observar el contenido del software; cuando
+se refiere a CAJA NEGRA no vemos como fue construida ni el codigo, ni la arquitectura, solo la
+interfaz en la que se está trabajando; la CAJA BLANCA se observan como una caja de cristal donde
+puedo ver todo lo que está adentro e incluso ser parte del desarrollo. Algunas empresas deciden
+que las pruebas de caja negra las realice un tercero que no se involucre y no conozca el software
+y esto se hace porque si se esta muy involucrado con el desarrollo se puede presentar ceguera de
+taller, donde no se pueden ver algunos defectos algunos detalles o incluso a omitir actividades
+entonces esto hace que alguien que este por fuera tenga una mejor perpectiva; entre ambas cajas
+se tiene lo que se llama la CAJA GRIS es donde se tienen las interacciones por ejemplo como fluyen
+los datos de un lugar a otro, sin concer el codigo, ni la interfaz sólo viendo como se transmiten
+los datos a traves de las redes.
+TECNICAS
+  
+  CAJA NEGRA
+    Partición de equivalencia: grupos de datos que pueden entrar para casos exitosos y
+    no exitosos
+      por ejemplo: puedo poner cantidades de 5 digitos pero deben ser <90.000 y >10.000
+    Valores limite: por ejemplo que ocurre si pasa 90.001 o 90.000,001 hasta cuantos digitos puedo
+    introducir
+    Tabla de decisiones: va enfocada si tuvieramos un tipo de valor ya sea en un chekboxing o en una
+    lista ya que por ejemplo si se podria poner falso o verdadero, si o no o incluso más de tres
+    valores pero fijos, no son argumentos que puede introducir el usuario sólo pueden ser seleccionables
+    Transición de estados: Como se comporta el componente. por ejemplo si ledas play o pause a un video
+    Casos de uso: probar en una interfaz que el usuario puede llenar el formulario por ejemplo o que al
+    llenar el usuario el formulario no puede pasar de interfaz sin antes completar todos
+  
+  CAJA BLANCA
+    Cobertura de declaraciones y Cobertura de codigo:
+    Que es lo que se trata de cubrir? Las declaraciones es todo lo que se encuentra dentro del código y
+    es lo que se pide que haga y la cobertura, dependiendo del tipo de software, código, condiciones
+    entre otro tiene un porcentaje de cobertura esto signifca que cada linea debería ser ejecutada al
+    menos una vez y entonces para pasar a producción debe ser porque se ha cumplido cierto porcentaje.
+    
+  CAJA GRIS
+  Casos de negocio:
+  La caja blanca cubre los requerimientos del back-end y la negra del front-end y en el intermedio hay
+  datos y servicio. e implica los casos de negocio donde el usuario para a intervenir en el front-end 
+  (datos de entrada) y este le solicitará al back-end unos datos los cuales retornaran un resultado
+  (datos de salida). Esta asociado en que el usuario final puede hacer uso del sistema
+  Pruebas end to end:
+  Son pruebas donde se ve observan los datos de entrada pero aún no es necesario la observación de los
+  datos de salida o aveces existe otro front-end donde se están almacenando esos datos. Hace parte del
+  administrador del sitio
+  Pruebas de integración:
+  Se visualiza como viajan los datos. Son la respuesta y comunicación de como fluyen los datos entre
+  diferentes servicios
+  

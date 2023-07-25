@@ -1,0 +1,35 @@
+Razones por las que aparecen los defectos:
+    Presión en los tiempos de entrega
+    Descuido en el diseño
+    Inexperiencia o falta de conocimiento
+    Falta de comunicación en los requerimientos
+    Diseño complejo del código
+    Desconocimiento de las tecnologías usadas
+
+Como crear un proceso de gestión de bugs?
+    Que debe hacer la persona que enceuntre un defecto?
+    En que herramienta debe documentar el defecto?
+    Como vamos a almacenar la información?
+    Que información requiere el equipo de desarrollo para poder resolver un defecto?
+    Cuales son los status que se manejan para que fluya la resolución del defecto?
+    Cuales son los criterios de aceptación del cierre del defecto?
+
+Ciclo de gestión
+Inicia en el reporte del defecto, se revisa y el status pasa a abierto porqué aún no ha sido resuelto
+Despúes de aprobado para reparación se le asigna al responsable de resolverlo y despúes pasaría a status
+arreglado. Luego si la confirmación es exitosa de que el defecto ha sido arreglado el status es cerrado
+Un retrabajo podría ocurrir en el momento en el que el defecto es mal reportado. Debe hacerse un análisis
+de impacto siempre que sale un defecto, siempre puede estar impactando en más areas, sino es un problema
+se rechaza y de ser así se puede tomar como una sugerencia. Si se decide que no es un problema, se 
+pasaría a declinar la reparación, se dice que es diferidoya que puede que no sea de entrega inmediata o
+puede postergarse y su status sería reabierto despues de que se tenga nueva información y sea asignado.
+Si al ser asignado y es arreglado el equipo de pruebas debe confirmarlo, si falla la prueba de 
+confirmación debe entonces reabrirse.
+Muchas veces los defectos son arreglados y cerrados exitosamente pero puede ocurrir que las plataformas
+se actualicen o nuevos datos que generan casos diferentes y las funcionalidades que ya habían sido 
+arregladas vuelven a fallar y en este caso también tendría que reabrirse
+los flujos complejos ocn mucho
+
+Repositorio y monitoreo de defectos
+uns vez instaurado el proceso de gestión de bugs, también se debe precisar quien tiene acceso a los bugs
+y cuales son los permisos que tiene, por cuanto tiempo se almacena etc...

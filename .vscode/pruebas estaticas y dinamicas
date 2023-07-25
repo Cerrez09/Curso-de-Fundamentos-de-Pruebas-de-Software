@@ -1,0 +1,49 @@
+Las PRUEBAS DINAMICAS se enfocan principalmente en comportamientos externos visibles durante la ejecución
+Es decir, las pruebas dinámicas lo que hacen es demostrar en la parte de ejecución como está funcionando
+el software.
+
+Las PRUEBAS ESTATICAS se basan en la examinación manual de los elementos que conforman la construcción 
+del software. Incluye que se esté leyendo documentación, comparando o diseñando el plan de pruebas
+
+¿QUE SON LOS ELEMENTOS?
+    Contratos, planes, y calendarios del proyecto, así como su presupuesto: la participación como tester
+    también incluye cuestionar la información y como esta se asimila a lo que se necesita de manera
+    armoniosa
+    El análisis de los requerimientos
+    Especificaciones o reglas de negocio
+        técnicos
+        seguridad
+    Las definiciones de:
+        Historias del usuario
+        Criterios de Aceptación
+        Mockups
+    Diseño de la arquitectura: la arquitectura va cambiando y se debe analizar si esta está preparada para
+    las nuevas especificaciones y actualizaciones
+    Las pruebas (Testware): la acumulación de las pruebas, por ejemplo. Es importante donde se van a 
+    guardar y donde se van a documentar. Además de los puntos de verificación clave que hay que tener en
+    cuenta para medir o analizar cualquier cambio. ¿, deben estar identificadas para saber dónde enfocar
+    el esfuerzo
+    Guías de usuario: al ser entregadas al usuario también son la promesa de venta. El usuario espera que
+    eso sea lo que sucede en su software exactamente
+    Evaluación y revisión del Código: cuando se tienen pocas líneas de código es fácil mantener buenas
+    prácticas, pero todos los errores que salen son porque con el tiempo se acumula la información. No 
+    mantener una continua evaluación del código. Las pruebas estáticas obedecen a las buenas prácticas
+
+BENEFICIOS
+    Detectar y corregir efectos de manera efectiva (pruebas estáticas)
+    Identificar y priorizar la ejecución en etapas posteriores
+    Prevenir defectos
+        Que no son fácilmente detectables durante las pruebas dinámicas
+        Durante la etapa de análisis y diseño
+    Se pueden cubrir aspectos como:
+        inconsistencias, ambigüedades, contradicciones, definiciones inexactas, requerimientos
+        redundantes
+    Reducir el trabajo e incrementar la productividad
+    Reducir el costo y el tiempo
+    Mejorando la comunicación entre todos los miembros
+
+    Herramientas que permiten analizar mejor los requerimientos
+    Herramientas que permiten tomar los mockups o borradores del diseño que se quiere entregar
+
+
+
